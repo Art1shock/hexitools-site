@@ -1,4 +1,4 @@
-HexiSweep — Privacy Policy / Политика конфиденциальности
+HexiSweep - Privacy Policy / Политика конфиденциальности
 Languages / Языки: en · ru · es · de · fr · pt-BR
 Updated / Обновлено: 2026-10-18
 
@@ -10,7 +10,7 @@ Last updated: October 18, 2026.
 
 This policy explains how the HexiSweep Android application processes user data.
 
-Developer: HexiTools — Artur Pogosian.
+Developer: HexiTools - Artur Pogosian.
 Privacy contact: arturich.pog@gmail.com.
 
 1. Core principles
@@ -154,7 +154,7 @@ Where applicable requirements call for a separate notice or consent, notice will
 
 For questions about privacy, data processing, and deletion of submitted support requests:
 
-HexiTools — Artur Pogosian
+HexiTools - Artur Pogosian
 Email: arturich.pog@gmail.com
 
 ========================================================================
@@ -167,7 +167,7 @@ Email: arturich.pog@gmail.com
 
 Настоящая политика объясняет, как приложение HexiSweep для Android обрабатывает данные пользователей.
 
-Разработчик: HexiTools — Artur Pogosian.
+Разработчик: HexiTools - Artur Pogosian.
 Контакт по вопросам конфиденциальности: arturich.pog@gmail.com.
 
 1. Основные принципы
@@ -311,7 +311,7 @@ HexiSweep использует приватное хранилище прило�
 
 По вопросам конфиденциальности, обработки данных и удаления отправленных обращений:
 
-HexiTools — Artur Pogosian
+HexiTools - Artur Pogosian
 Электронная почта: arturich.pog@gmail.com
 
 ========================================================================
@@ -324,7 +324,7 @@ Fecha de actualización: 18 de octubre de 2026.
 
 Esta política explica cómo la aplicación HexiSweep para Android trata los datos de los usuarios.
 
-Desarrollador: HexiTools — Artur Pogosian.
+Desarrollador: HexiTools - Artur Pogosian.
 Contacto para cuestiones de privacidad: arturich.pog@gmail.com.
 
 1. Principios básicos
@@ -468,7 +468,7 @@ Si los cambios requieren una notificación o un consentimiento por separado, est
 
 Para cuestiones relacionadas con la privacidad, el tratamiento de datos y la eliminación de solicitudes enviadas:
 
-HexiTools — Artur Pogosian
+HexiTools - Artur Pogosian
 Correo electrónico: arturich.pog@gmail.com
 
 ========================================================================
@@ -481,7 +481,7 @@ Stand: 18. Oktober 2026.
 
 Diese Erklärung erläutert, wie die Android-App HexiSweep Nutzerdaten verarbeitet.
 
-Entwickler: HexiTools — Artur Pogosian.
+Entwickler: HexiTools - Artur Pogosian.
 Kontakt für Datenschutzfragen: arturich.pog@gmail.com.
 
 1. Grundsätze
@@ -625,7 +625,7 @@ Erfordern Änderungen eine gesonderte Benachrichtigung oder Einwilligung, erfolg
 
 Bei Fragen zum Datenschutz, zur Datenverarbeitung und zur Löschung bereits gesendeter Anfragen:
 
-HexiTools — Artur Pogosian
+HexiTools - Artur Pogosian
 E-Mail: arturich.pog@gmail.com
 
 ========================================================================
@@ -638,7 +638,7 @@ Date de mise à jour : 18 octobre 2026.
 
 La présente politique explique comment l’application Android HexiSweep traite les données des utilisateurs.
 
-Développeur : HexiTools — Artur Pogosian.
+Développeur : HexiTools - Artur Pogosian.
 Contact pour les questions de confidentialité : arturich.pog@gmail.com.
 
 1. Principes généraux
@@ -782,7 +782,7 @@ Si des modifications nécessitent une notification distincte ou un consentement,
 
 Pour toute question concernant la confidentialité, le traitement des données ou la suppression des demandes envoyées :
 
-HexiTools — Artur Pogosian
+HexiTools - Artur Pogosian
 E-mail : arturich.pog@gmail.com
 
 ========================================================================
@@ -795,7 +795,7 @@ Data de atualização: 18 de outubro de 2026.
 
 Esta política explica como o aplicativo HexiSweep para Android trata os dados dos usuários.
 
-Desenvolvedor: HexiTools — Artur Pogosian.
+Desenvolvedor: HexiTools - Artur Pogosian.
 Contato para questões de privacidade: arturich.pog@gmail.com.
 
 1. Princípios básicos
@@ -939,6 +939,6 @@ Se as alterações exigirem uma notificação ou um consentimento separado, eles
 
 Para questões de privacidade, tratamento de dados e exclusão de solicitações enviadas:
 
-HexiTools — Artur Pogosian
+HexiTools - Artur Pogosian
 E-mail: arturich.pog@gmail.com
 
