@@ -1,0 +1,17 @@
+Built-in imagegen edit with transparent alpha background.
+Use case: precise-object-edit.
+Reference roles:
+Image 1 = EDIT TARGET, the current privacy illustration with the raised shield. Keep its Hexi and its shield exactly as they are.
+Image 2 = authoritative HexiBot concept/model sheet: robot anatomy, head, white limbs and SHORT CHARCOAL END CAPS.
+Image 3 = authoritative Hexi-Chibi concept/model sheet: Hexi identity.
+Image 4 = RELATIVE SIZE reference ONLY. Use it to match the smaller companion's scale next to Hexi; do not copy its waving poses or reinterpret character identity from this image.
+
+Only fix HexiBot's overall scale and shield-contact arm. Leave Hexi's face, hair, body proportions, hands, clothes, shoes, position, the raised shield position, shield dimensions, colors and padlock unchanged.
+
+SIZE: uniformly reduce the ENTIRE HexiBot by about 15 percent from Image 1, keeping head/body/limb/antenna proportions intact. Both characters stand on the same ground baseline. Bot height INCLUDING antenna should be approximately 53-55 percent of Hexi's total height INCLUDING hair bun, as in Image 4. Do not merely shrink its body while retaining an oversized head. Position the smaller bot naturally just beside the shield, slightly closer if necessary for contact without stretching its arm.
+
+CANONICAL ARM SHAPE IS CRITICAL: HexiBot has smooth white tapered pod-shaped arms whose ends are short, rounded charcoal CAPS flush with the white arm's contour. The charcoal part is NOT a separate ball-hand, NOT a protruding palm, NOT an elongated black glove, NOT fingers, NOT a gripping claw, NOT a thumb. Copy the end-cap shape and length from the arm in Image 2, including the simple clean curved seam between white pod and dark cap. Preserve that shape even when the arm is rotated.
+To support the shield, rotate the bot's inner arm gently upward toward the shield so its short rounded dark end cap touches the underside of the shield's LOWER RIGHT sloping rim. Treat it as a short padded arm tip propping up an edge, not a hand curling around a surface. The white arm and charcoal cap stay entirely outside the shield's solid silhouette, except a very small natural overlap at the support point. No part passes through the shield. Small contact shadow, believable reach. Do not stretch either the white arm or the dark cap to reach; bring the bot a little closer if needed.
+Keep the other arm's canonical short rounded end cap unchanged as well. Exactly two arms, no human hands and no new joints or anatomy.
+
+Keep the same clean 2D art style, original canvas dimensions, true transparent alpha background, refined face details, clean cutout edges. No text, glow, floor, new props, stickers or changes to Hexi.
