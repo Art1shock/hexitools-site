@@ -4,9 +4,9 @@ Public static pages for HexiTools applications, hosted on GitHub Pages.
 
 ## HexiSweep privacy policy
 
-https://art1shock.github.io/hexitools-site/hexisweep/
+https://art1shock.github.io/hexitools-site/hexisweep/privacy/
 
-The `hexisweep/` folder contains the responsive privacy policy in English,
+The `hexisweep/privacy/` folder contains the responsive privacy policy in English,
 Russian, Spanish, German, French, and Brazilian Portuguese. The text is from
 the developer-supplied policy dated October 18, 2026.
 
@@ -23,3 +23,5 @@ translations in plain text. All six policy translations are present in the HTML.
 Serve the repository root with any static web server for local preview.
 GitHub Pages publishes `main` from the repository root; `.nojekyll` keeps the
 site as plain static files.
+
+The former `/hexisweep/` URL redirects to `/hexisweep/privacy/`, preserving language query parameters and section fragments. Brand images come from the supplied HexiTools developer banner and `hexi_onboarding_team.png`. External document links open in a new tab.
