@@ -27,3 +27,34 @@ summary.eyebrow{cursor:pointer;list-style:none}summary.eyebrow::-webkit-details-
 .contact-card{display:grid;grid-template-columns:34px minmax(0,1fr) 17px;align-items:center;gap:11px;margin-top:20px;padding:15px 13px;border:1px solid #ffffff12;border-radius:12px;background:#ffffff03;text-decoration:none;transition:background-color 180ms ease,border-color 180ms ease,box-shadow 180ms ease,transform 180ms ease}.contact-card:hover{background:#ff8a2b08;border-color:#ff8a2b35;box-shadow:0 4px 18px #00000012;transform:translateY(-1px);color:var(--text)}.contact-card:focus-visible{outline:2px solid #a7a2ac;outline-offset:3px}.contact-icon{display:flex;align-items:center;justify-content:center;width:34px;height:34px;border-radius:9px;background:#ff8a2b16;color:var(--orange)}.contact-icon svg{width:19px;height:19px;stroke:currentColor;stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round}.contact-copy{display:flex;flex-direction:column;min-width:0;gap:4px}.contact-copy strong{color:var(--text);font-size:13px;font-weight:600;line-height:1.45}.contact-copy .contact-cta{color:var(--orange);font-size:12px;line-height:1.45}.contact-card>.contact-arrow{display:flex;align-items:center;color:var(--orange);opacity:.85}.contact-arrow svg{width:17px;height:17px;stroke:currentColor;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;transition:transform 180ms ease}.contact-card:hover .contact-arrow svg{transform:translate(1px,-1px)}
 @media(max-width:760px){.contact-card{display:grid;grid-template-columns:32px minmax(0,1fr) 17px;margin-top:12px;padding:12px 14px}.contact-icon{width:32px;height:32px}.contact-copy strong{font-size:14px}.contact-copy .contact-cta{font-size:13px}}
 @media(prefers-reduced-motion:reduce){.contact-card,.contact-arrow svg{transition:none}.contact-card:hover,.contact-card:hover .contact-arrow svg{transform:none}}
+.document-heading .eyebrow{max-width:none;white-space:nowrap;letter-spacing:.09em}
+/* Mobile reading navigation. Desktop layout and policy content stay unchanged. */
+.mobile-sections,.section-dialog{display:none}
+@media(max-width:760px){
+ body{padding-bottom:calc(82px + env(safe-area-inset-bottom,0px))}
+ .mobile-sections{position:fixed;display:flex;align-items:center;gap:11px;right:max(18px,env(safe-area-inset-right,0px));bottom:calc(16px + env(safe-area-inset-bottom,0px));z-index:19;max-width:calc(100vw - 36px);min-height:50px;padding:12px 15px;border:1px solid #635040;border-radius:17px;background:#252124f5;box-shadow:0 5px 24px #0005;color:var(--text);cursor:pointer;animation:nav-appear .2s ease;transition:background .18s ease}
+ .mobile-sections>svg{width:22px;height:22px;flex-shrink:0;color:var(--orange)}
+ .mobile-section-label{max-width:min(265px,calc(100vw - 140px));overflow:hidden;text-overflow:ellipsis;white-space:nowrap;font-size:13px;text-align:left}
+ .mobile-sections .mobile-section-chevron{width:16px;color:var(--muted)}
+ .mobile-sections.compact:not(:focus-visible){padding:14px;border-radius:17px}
+ .mobile-sections.compact:not(:focus-visible) .mobile-section-label,.mobile-sections.compact:not(:focus-visible) .mobile-section-chevron{display:none}
+ .mobile-sections:focus-visible,.sheet-close:focus-visible,.sheet-links a:focus-visible{outline:2px solid #c9b8aa;outline-offset:3px}
+ .section-dialog[open]{display:flex;align-items:flex-end;position:fixed;inset:0;width:100%;height:100%;height:100dvh;max-width:none;max-height:none;margin:0;padding:0;border:0;background:transparent;overflow:hidden;color:var(--text)}
+ .section-dialog::backdrop{background:#0008;backdrop-filter:blur(3px)}
+ .section-sheet{display:flex;flex-direction:column;width:100%;max-height:82vh;max-height:82dvh;border:1px solid #484044;border-bottom:0;border-radius:23px 23px 0 0;background:#1d1c20;padding:0 max(20px,env(safe-area-inset-right,0px)) calc(18px + env(safe-area-inset-bottom,0px)) max(20px,env(safe-area-inset-left,0px));box-shadow:0 -12px 50px #0005;overflow:hidden}
+ .sheet-grip{display:flex;justify-content:center;flex-shrink:0;padding:11px;touch-action:none}.sheet-grip span{width:34px;height:4px;border-radius:3px;background:#625d63}
+ .sheet-header{display:flex;gap:16px;align-items:center;justify-content:space-between;padding-bottom:13px;border-bottom:1px solid #ffffff10;flex-shrink:0}
+ .sheet-header h2{font-size:18px;line-height:1.4;letter-spacing:-.02em;margin:0;font-weight:650;overflow-wrap:anywhere}
+ .sheet-close{display:grid;place-items:center;flex:0 0 42px;width:42px;height:42px;padding:10px;border:0;border-radius:12px;background:#ffffff06;color:#c2bdc4;cursor:pointer}.sheet-close svg{width:22px;height:22px}
+ .sheet-links{overflow-y:auto;overscroll-behavior:contain;-webkit-overflow-scrolling:touch;min-height:0;padding-top:10px;scrollbar-width:thin}
+ .sheet-links a{display:flex;align-items:center;gap:12px;padding:13px 12px;min-height:48px;border-radius:11px;text-decoration:none;font-size:14px;line-height:1.45;color:#c8c3c9;margin:2px 0}
+ .sheet-links .site-hex{width:20px;height:22px;color:#929097}.sheet-links a.active{background:#ff8a2b10;color:#ffba80}.sheet-links a.active .site-hex{color:var(--orange)}
+ .sheet-links a:hover{background:#ffffff07}
+ body.sheet-open{position:fixed;width:100%;overflow:hidden}
+ @keyframes nav-appear{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:translateY(0)}}
+}
+@media(max-width:380px){.document-heading .eyebrow{font-size:9px;letter-spacing:.035em}}
+@media(prefers-reduced-motion:reduce){.mobile-sections{animation:none;transition:none}}
+@media print{.mobile-sections,.section-dialog{display:none!important}}
+/* Language changes restore the reading position explicitly. */
+html{overflow-anchor:none}
