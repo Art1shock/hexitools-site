@@ -1,0 +1,944 @@
+HexiSweep — Privacy Policy / Политика конфиденциальности
+Languages / Языки: en · ru · es · de · fr · pt-BR
+Updated / Обновлено: 2026-10-18
+
+[en] English
+
+HexiSweep Privacy Policy
+
+Last updated: October 18, 2026.
+
+This policy explains how the HexiSweep Android application processes user data.
+
+Developer: HexiTools — Artur Pogosian.
+Privacy contact: arturich.pog@gmail.com.
+
+1. Core principles
+
+HexiSweep helps you browse and organize your gallery, find similar photos, and search for files by their content.
+
+Photos, videos, and search queries are analyzed on your device. HexiSweep does not upload the contents of your gallery to the developer's, Google's, or Hugging Face's servers for cloud-based AI analysis and does not use that content to train models.
+
+You do not need to create a HexiSweep account to use the main features.
+
+The application contains no advertising. We do not sell personal data or use gallery content for advertising profiling.
+
+Some features nevertheless require network connections, such as downloading models, interacting with Google Play, or sending an email to support at your request. These cases are described below.
+
+2. Access to photos, videos, and metadata
+
+The application accesses media files within the permissions you grant through Android. Depending on your Android version, you may grant access to your entire available gallery or only to selected files.
+
+To provide its features, HexiSweep may process:
+
+- photos, videos, thumbnails, and individual video frames;
+- file and album names, file locations, types, sizes, and dates;
+- text recognized in images;
+- content categories, visual similarity features, and numerical file representations used by AI models;
+- geographic coordinates already recorded in photo metadata, if the corresponding access is granted.
+
+Permission to access media location metadata is used to read where a photo was taken from its file. HexiSweep does not request the phone's current GPS location for this feature. In the current implementation, matching location metadata to place names is performed locally.
+
+The data is used to display the gallery, search, group similar files, apply filters, and save progress.
+
+Analysis itself does not modify originals. Files are deleted at your request using the confirmation mechanisms provided by Android.
+
+You can revoke permissions in the system settings. Features that require the corresponding access may then become unavailable or work with limitations.
+
+3. Data stored on your device
+
+To speed up subsequent use, the application stores local data, including:
+
+- analysis results, indexes, recognized text, categories, and AI representations of files;
+- search query history;
+- selected albums, exclusions, selections, review progress, and information about completed actions;
+- language and appearance settings;
+- performance test results;
+- information about unlocked features and the search query balance;
+- technical error diagnostics.
+
+This data is kept in the application's storage and is not synchronized with a HexiSweep account or server.
+
+Temporary copies may be created in the application's cache to process or share files at your request.
+
+4. Internet access and component downloads
+
+Some AI models, language packs, and components are downloaded separately. For this purpose, the application connects to Google and Hugging Face services, including their file delivery infrastructure.
+
+During a download, servers may receive ordinary technical information from the network request, such as the IP address, request time, address of the requested component, and connection parameters. The application does not include photos, videos, or the text of your search queries when downloading models.
+
+Search queries are translated on your device once the required language pack has been prepared.
+
+Service providers describe their data processing in their policies:
+
+- Google Privacy Policy: https://policies.google.com/privacy?hl=en
+- Hugging Face Privacy Policy: https://huggingface.co/privacy
+
+5. Technical data from Google SDKs
+
+HexiSweep uses Google ML Kit for certain recognition and translation features.
+
+According to Google's documentation, image, video, and text content supplied to these features is processed on your device. However, ML Kit also sends Google technical information for diagnostics, usage analysis, support, and SDK improvement.
+
+Depending on the feature used, this may include:
+
+- device manufacturer and model, Android version, and available AI accelerators;
+- the application's package name and version;
+- device or installation identifiers used by the SDK;
+- operation execution times, component download and usage events, and error codes;
+- processing parameters, such as image format and resolution and the sizes of input and output data;
+- configured translation languages.
+
+This technical diagnostic reporting is not an upload of your gallery content for cloud analysis. Google states that the diagnostic data listed above is transmitted over HTTPS. Further details are available in the ML Kit documentation:
+
+- Data processing: https://developers.google.com/ml-kit/android-data-disclosure
+- Terms and privacy: https://developers.google.com/ml-kit/terms
+
+6. Purchases
+
+When you make purchases through Google Play, Google processes the payment.
+
+The application receives technical information needed to verify and acknowledge the purchase, restore access, and provide the purchased features. This may include product identifiers, purchase status, and verification tokens.
+
+HexiSweep does not request or receive your full bank card number or its security code.
+
+Data processed directly by Google Play is governed by Google's terms and privacy policy.
+
+7. Error reports and support
+
+When an error occurs, the application may generate a local technical report. It may contain the application version, phone model, Android version, time of the error, information about how the feature was operating, error types, and filtered diagnostic events.
+
+Photos and videos from your gallery are not automatically attached to the report.
+
+The report is not sent to the developer automatically. If you choose to send it, the application opens an email draft that you can review, edit, and send yourself.
+
+After you send the email, we receive the sender's email address, message text, technical report, and any other materials you choose to attach. They are used to reply, diagnose, and resolve the issue you described.
+
+Emails and voluntarily submitted reports are deleted no later than 90 days after the issue is resolved, unless a longer retention period for particular information is required by law.
+
+8. Sharing files at your request
+
+If you use the Share feature, the selected files are passed to the application or service you select in the Android system menu.
+
+Further processing of those files is governed by the selected recipient's rules. The same applies to the email application used to send a support request.
+
+This sharing is distinct from gallery analysis: it takes place through a separate action you initiate.
+
+9. Data retention and deletion
+
+Local indexes, history, settings, and saved progress remain on your device until you delete them using the corresponding application feature, clear application data through Android, or uninstall the application. Some temporary data may be deleted earlier by the application or the system.
+
+The application provides separate controls for managing search history, the analysis cache, and downloaded components. Clearing one type of cache does not delete all other data, settings, purchases, or your query balance.
+
+Uninstalling the application does not itself delete original photos or videos or cancel purchases made through Google Play.
+
+HexiSweep's backup rules allow the system to back up language and appearance settings. Gallery indexes, query history, location metadata, review progress, and local purchase information are not included in that list.
+
+To request deletion of a previously submitted support request, email arturich.pog@gmail.com, preferably from the address you used to send it. We may ask for the minimum information needed to locate the correspondence and verify your request.
+
+Retention periods for data held directly by Google, Hugging Face, and email services are determined by their own rules. The 90-day period stated above applies to support requests received by the developer, not to all data held by those services.
+
+10. Data security
+
+HexiSweep uses private application storage, Android's system permission mechanisms, and HTTPS for the network downloads it provides.
+
+We take reasonable measures to restrict access to support requests and technical reports we receive. However, no method of storing or transmitting data provides absolute security.
+
+11. Policy changes
+
+This policy may be updated when application features or data processing practices change. The current version is published on this page with its update date.
+
+Where applicable requirements call for a separate notice or consent, notice will be given or consent obtained before the corresponding processing begins.
+
+12. Contact
+
+For questions about privacy, data processing, and deletion of submitted support requests:
+
+HexiTools — Artur Pogosian
+Email: arturich.pog@gmail.com
+
+========================================================================
+
+[ru] Русский
+
+Политика конфиденциальности HexiSweep
+
+Дата обновления: 18 октября 2026 года.
+
+Настоящая политика объясняет, как приложение HexiSweep для Android обрабатывает данные пользователей.
+
+Разработчик: HexiTools — Artur Pogosian.
+Контакт по вопросам конфиденциальности: arturich.pog@gmail.com.
+
+1. Основные принципы
+
+HexiSweep помогает просматривать и упорядочивать галерею, находить похожие фотографии и искать файлы по содержимому.
+
+Анализ фотографий, видео и поисковых запросов выполняется на устройстве. HexiSweep не загружает содержимое вашей галереи на серверы разработчика, Google или Hugging Face для облачного AI-анализа и не использует его для обучения моделей.
+
+Для основных функций не требуется создавать аккаунт HexiSweep.
+
+В приложении нет рекламы. Мы не продаём персональные данные и не используем содержимое галереи для рекламного профилирования.
+
+При этом отдельные функции требуют сетевых соединений: например, скачивание моделей, взаимодействие с Google Play и отправка пользователем письма в поддержку. Эти случаи описаны ниже.
+
+2. Доступ к фотографиям, видео и метаданным
+
+Приложение получает доступ к медиафайлам в пределах разрешений, предоставленных вами через Android. В зависимости от версии системы вы можете разрешить доступ ко всей доступной галерее или только к выбранным файлам.
+
+Для работы функций HexiSweep может обрабатывать:
+
+- фотографии, видео, миниатюры и отдельные кадры видео;
+- названия файлов и альбомов, расположение файлов, тип, размер и даты;
+- текст, распознанный на изображениях;
+- категории содержимого, признаки визуального сходства и числовые представления файлов, используемые AI-моделями;
+- географические координаты, уже записанные в метаданных фотографий, если предоставлен соответствующий доступ.
+
+Разрешение на доступ к геометкам медиа используется для чтения местоположения съёмки из файлов. HexiSweep не запрашивает текущее GPS-местоположение телефона для этой функции. Сопоставление геометок с названиями мест в текущей реализации выполняется локально.
+
+Данные используются для отображения галереи, поиска, группировки похожих файлов, фильтрации и сохранения прогресса.
+
+Сам анализ не изменяет оригиналы. Удаление файлов выполняется по вашему действию с использованием предусмотренных Android механизмов подтверждения.
+
+Вы можете отозвать разрешения в системных настройках. После этого функции, которым необходим соответствующий доступ, могут стать недоступны или работать с ограничениями.
+
+3. Данные, сохраняемые на устройстве
+
+Для ускорения повторной работы приложение сохраняет локальные данные, в том числе:
+
+- результаты анализа, индексы, распознанный текст, категории и AI-представления файлов;
+- историю поисковых запросов;
+- выбранные альбомы, исключения, отметки, прогресс разбора и сведения о выполненных действиях;
+- настройки языка и оформления;
+- результаты тестов производительности;
+- сведения об открытых функциях и балансе поисковых запросов;
+- техническую диагностику ошибок.
+
+Эти данные размещаются в хранилище приложения и не синхронизируются с собственным аккаунтом или сервером HexiSweep.
+
+Для обработки и передачи файлов по вашему запросу могут создаваться временные копии в кэше приложения.
+
+4. Интернет и загрузка компонентов
+
+Некоторые AI-модели, языковые пакеты и компоненты загружаются отдельно. Для этого приложение обращается к сервисам Google и Hugging Face, включая используемую ими инфраструктуру доставки файлов.
+
+При загрузке серверы могут получать обычные технические сведения сетевого запроса: IP-адрес, время обращения, адрес запрашиваемого компонента и служебные параметры соединения. Для скачивания моделей приложение не прикладывает фотографии, видео или текст ваших поисковых запросов.
+
+Перевод поискового запроса выполняется на устройстве после подготовки необходимого языкового пакета.
+
+Обработка данных поставщиками сервисов описана в их политиках:
+
+- Политика конфиденциальности Google: https://policies.google.com/privacy?hl=ru
+- Политика конфиденциальности Hugging Face: https://huggingface.co/privacy
+
+5. Технические данные Google SDK
+
+HexiSweep использует Google ML Kit для отдельных функций распознавания и перевода.
+
+Согласно документации Google, содержимое изображений, видео и текста, передаваемое этим функциям, обрабатывается на устройстве. Однако ML Kit также передаёт Google технические сведения для диагностики, анализа использования, поддержки и улучшения SDK.
+
+В зависимости от используемой функции это могут быть:
+
+- производитель и модель устройства, версия Android и доступные AI-ускорители;
+- название пакета и версия приложения;
+- идентификаторы устройства или установки, используемые SDK;
+- время выполнения операций, события загрузки и использования компонентов, коды ошибок;
+- параметры обработки, например формат и разрешение изображения, размеры входных и выходных данных;
+- настроенные языки перевода.
+
+Эта техническая диагностика не является загрузкой содержимого вашей галереи для облачного анализа. Google указывает, что перечисленные диагностические данные передаются по HTTPS. Подробности доступны в документации ML Kit:
+
+- Обработка данных: https://developers.google.com/ml-kit/android-data-disclosure
+- Условия и конфиденциальность: https://developers.google.com/ml-kit/terms
+
+6. Покупки
+
+При совершении покупок через Google Play платёж обрабатывается Google.
+
+Приложение получает служебные сведения, необходимые для проверки покупки, её подтверждения, восстановления доступа и предоставления приобретённых возможностей. Они могут включать идентификаторы продуктов, статус покупки и токены подтверждения.
+
+HexiSweep не запрашивает и не получает полный номер вашей банковской карты или её защитный код.
+
+Данные, обрабатываемые непосредственно Google Play, регулируются условиями и политикой конфиденциальности Google.
+
+7. Отчёты об ошибках и связь с поддержкой
+
+При ошибках приложение может сформировать локальный технический отчёт. Он может содержать версию приложения, модель телефона, версию Android, время ошибки, сведения о работе функции, типы ошибок и отфильтрованные диагностические события.
+
+Фотографии и видео из галереи автоматически к отчёту не прикладываются.
+
+Отчёт не отправляется разработчику автоматически. Если вы выбираете отправку, приложение открывает почтовый черновик, который вы можете проверить, изменить и отправить самостоятельно.
+
+После отправки мы получаем адрес отправителя, текст письма, технический отчёт и другие материалы, которые вы решили приложить. Они используются для ответа, диагностики и решения описанной проблемы.
+
+Письма и добровольно присланные отчёты удаляются не позднее чем через 90 дней после решения вопроса, если более длительное хранение отдельных сведений не требуется законом.
+
+8. Передача файлов по вашему действию
+
+Если вы используете функцию «Поделиться», выбранные файлы передаются приложению или сервису, который вы указали в системном меню Android.
+
+Дальнейшая обработка этих файлов регулируется правилами выбранного получателя. То же относится к почтовому приложению, используемому для отправки обращения.
+
+Такая передача отличается от анализа галереи: она выполняется по вашему отдельному действию.
+
+9. Хранение и удаление данных
+
+Локальные индексы, история, настройки и сохранённый прогресс хранятся на устройстве до их удаления соответствующей функцией приложения, очистки данных через Android или удаления приложения. Отдельные временные данные могут удаляться раньше самим приложением или системой.
+
+В приложении предусмотрены отдельные средства управления историей поиска, кэшем анализа и скачанными компонентами. Очистка одного вида кэша не означает удаления всех остальных данных, настроек, покупок или баланса запросов.
+
+Удаление приложения само по себе не удаляет оригиналы фотографий и видео и не отменяет покупки, совершённые через Google Play.
+
+Правила резервного копирования HexiSweep разрешают системное сохранение настроек языка и оформления. Индексы галереи, история запросов, геометки, прогресс разбора и локальные сведения о покупках не включены в этот список.
+
+Для удаления ранее отправленного обращения напишите на arturich.pog@gmail.com, желательно с адреса, с которого оно было отправлено. Мы можем запросить минимальные сведения, необходимые для нахождения обращения и проверки запроса.
+
+Сроки хранения данных непосредственно Google, Hugging Face и почтовыми сервисами определяются их собственными правилами. Указанный выше срок 90 дней относится к обращениям, полученным разработчиком, а не ко всем данным этих сервисов.
+
+10. Защита данных
+
+HexiSweep использует приватное хранилище приложения, системные механизмы разрешений Android и HTTPS для предусмотренных сетевых загрузок.
+
+Мы принимаем разумные меры для ограничения доступа к полученным обращениям и техническим отчётам. При этом ни один способ хранения или передачи данных не обеспечивает абсолютной защиты.
+
+11. Изменения политики
+
+Политика может обновляться при изменении функций приложения или порядка обработки данных. Актуальная редакция публикуется на этой странице с указанием даты обновления.
+
+Если изменения требуют отдельного уведомления или согласия, они предоставляются до начала соответствующей обработки в случаях, предусмотренных применимыми требованиями.
+
+12. Контакты
+
+По вопросам конфиденциальности, обработки данных и удаления отправленных обращений:
+
+HexiTools — Artur Pogosian
+Электронная почта: arturich.pog@gmail.com
+
+========================================================================
+
+[es] Español
+
+Política de privacidad de HexiSweep
+
+Fecha de actualización: 18 de octubre de 2026.
+
+Esta política explica cómo la aplicación HexiSweep para Android trata los datos de los usuarios.
+
+Desarrollador: HexiTools — Artur Pogosian.
+Contacto para cuestiones de privacidad: arturich.pog@gmail.com.
+
+1. Principios básicos
+
+HexiSweep ayuda a ver y organizar la galería, encontrar fotografías similares y buscar archivos por su contenido.
+
+El análisis de fotografías, vídeos y consultas de búsqueda se realiza en el dispositivo. HexiSweep no sube el contenido de tu galería a los servidores del desarrollador, Google o Hugging Face para realizar análisis de IA en la nube, ni lo utiliza para entrenar modelos.
+
+No es necesario crear una cuenta de HexiSweep para utilizar las funciones principales.
+
+La aplicación no contiene publicidad. No vendemos datos personales ni utilizamos el contenido de la galería para crear perfiles publicitarios.
+
+Sin embargo, algunas funciones requieren conexiones de red: por ejemplo, la descarga de modelos, la interacción con Google Play y el envío de un correo electrónico al servicio de asistencia por parte del usuario. Estos casos se describen a continuación.
+
+2. Acceso a fotografías, vídeos y metadatos
+
+La aplicación accede a los archivos multimedia dentro de los límites de los permisos que concedas a través de Android. Según la versión del sistema, puedes permitir el acceso a toda la galería disponible o solo a los archivos seleccionados.
+
+Para ofrecer sus funciones, HexiSweep puede tratar:
+
+- fotografías, vídeos, miniaturas y fotogramas individuales de los vídeos;
+- nombres de archivos y álbumes, ubicación de los archivos, tipo, tamaño y fechas;
+- texto reconocido en las imágenes;
+- categorías de contenido, características de similitud visual y representaciones numéricas de los archivos utilizadas por los modelos de IA;
+- coordenadas geográficas ya registradas en los metadatos de las fotografías, si se ha concedido el acceso correspondiente.
+
+El permiso de acceso a las etiquetas de ubicación de los archivos multimedia se utiliza para leer la ubicación de la toma desde los archivos. HexiSweep no solicita la ubicación GPS actual del teléfono para esta función. En la implementación actual, la correspondencia entre las etiquetas de ubicación y los nombres de los lugares se realiza localmente.
+
+Los datos se utilizan para mostrar la galería, realizar búsquedas, agrupar archivos similares, filtrar y guardar el progreso.
+
+El análisis en sí no modifica los originales. Los archivos se eliminan por una acción tuya mediante los mecanismos de confirmación previstos por Android.
+
+Puedes revocar los permisos en los ajustes del sistema. Después, las funciones que necesiten ese acceso pueden dejar de estar disponibles o funcionar con limitaciones.
+
+3. Datos guardados en el dispositivo
+
+Para agilizar el uso posterior, la aplicación guarda datos locales, entre ellos:
+
+- resultados del análisis, índices, texto reconocido, categorías y representaciones de los archivos utilizadas por la IA;
+- historial de consultas de búsqueda;
+- álbumes seleccionados, exclusiones, marcas, progreso de la revisión e información sobre las acciones realizadas;
+- ajustes de idioma y apariencia;
+- resultados de las pruebas de rendimiento;
+- información sobre las funciones desbloqueadas y el saldo de consultas de búsqueda;
+- diagnóstico técnico de errores.
+
+Estos datos se encuentran en el almacenamiento de la aplicación y no se sincronizan con una cuenta o un servidor propios de HexiSweep.
+
+Para procesar y transferir archivos a petición tuya, pueden crearse copias temporales en la caché de la aplicación.
+
+4. Internet y descarga de componentes
+
+Algunos modelos de IA, paquetes de idiomas y componentes se descargan por separado. Para ello, la aplicación se conecta a servicios de Google y Hugging Face, incluida la infraestructura de distribución de archivos que utilizan.
+
+Durante la descarga, los servidores pueden recibir los datos técnicos habituales de una solicitud de red: dirección IP, hora de la solicitud, dirección del componente solicitado y parámetros técnicos de la conexión. Para descargar modelos, la aplicación no adjunta fotografías, vídeos ni el texto de tus consultas de búsqueda.
+
+La traducción de una consulta de búsqueda se realiza en el dispositivo después de preparar el paquete de idiomas necesario.
+
+El tratamiento de los datos por parte de los proveedores de servicios se describe en sus políticas:
+
+- Política de privacidad de Google: https://policies.google.com/privacy?hl=es
+- Política de privacidad de Hugging Face: https://huggingface.co/privacy
+
+5. Datos técnicos de los SDK de Google
+
+HexiSweep utiliza Google ML Kit para determinadas funciones de reconocimiento y traducción.
+
+Según la documentación de Google, el contenido de las imágenes, los vídeos y el texto que se proporciona a estas funciones se procesa en el dispositivo. Sin embargo, ML Kit también transmite a Google información técnica para el diagnóstico, el análisis del uso, el soporte y la mejora del SDK.
+
+Según la función utilizada, esta información puede incluir:
+
+- fabricante y modelo del dispositivo, versión de Android y aceleradores de IA disponibles;
+- nombre del paquete y versión de la aplicación;
+- identificadores del dispositivo o de la instalación utilizados por el SDK;
+- tiempos de ejecución de las operaciones, eventos de carga y uso de los componentes y códigos de error;
+- parámetros de procesamiento, como el formato y la resolución de la imagen y el tamaño de los datos de entrada y salida;
+- idiomas de traducción configurados.
+
+Este diagnóstico técnico no constituye una subida del contenido de tu galería para su análisis en la nube. Google indica que los datos de diagnóstico enumerados se transmiten mediante HTTPS. Encontrarás más información en la documentación de ML Kit:
+
+- Tratamiento de datos: https://developers.google.com/ml-kit/android-data-disclosure
+- Condiciones y privacidad: https://developers.google.com/ml-kit/terms
+
+6. Compras
+
+Cuando realizas compras a través de Google Play, Google procesa el pago.
+
+La aplicación recibe los datos operativos necesarios para verificar la compra, confirmarla, restaurar el acceso y proporcionar las funciones adquiridas. Pueden incluir identificadores de productos, el estado de la compra y tokens de confirmación.
+
+HexiSweep no solicita ni recibe el número completo de tu tarjeta bancaria ni su código de seguridad.
+
+Los datos tratados directamente por Google Play se rigen por las condiciones y la política de privacidad de Google.
+
+7. Informes de errores y contacto con el servicio de asistencia
+
+Si se producen errores, la aplicación puede generar un informe técnico local. Puede contener la versión de la aplicación, el modelo del teléfono, la versión de Android, la hora del error, información sobre el funcionamiento de la función, tipos de errores y eventos de diagnóstico filtrados.
+
+Las fotografías y los vídeos de la galería no se adjuntan automáticamente al informe.
+
+El informe no se envía automáticamente al desarrollador. Si decides enviarlo, la aplicación abre un borrador de correo electrónico que puedes revisar, modificar y enviar por tu cuenta.
+
+Después del envío, recibimos la dirección del remitente, el texto del correo, el informe técnico y otros materiales que hayas decidido adjuntar. Se utilizan para responder, diagnosticar y resolver el problema descrito.
+
+Los correos electrónicos y los informes enviados voluntariamente se eliminan en un plazo máximo de 90 días tras la resolución del asunto, salvo que la ley exija conservar determinados datos durante más tiempo.
+
+8. Transferencia de archivos por una acción tuya
+
+Si utilizas la función «Compartir», los archivos seleccionados se transfieren a la aplicación o al servicio que indiques en el menú del sistema Android.
+
+El tratamiento posterior de estos archivos se rige por las normas del destinatario seleccionado. Lo mismo se aplica a la aplicación de correo utilizada para enviar una solicitud de asistencia.
+
+Esta transferencia es distinta del análisis de la galería: se realiza por una acción tuya independiente.
+
+9. Conservación y eliminación de datos
+
+Los índices locales, el historial, los ajustes y el progreso guardado permanecen en el dispositivo hasta que se eliminen mediante la función correspondiente de la aplicación, se borren los datos a través de Android o se desinstale la aplicación. Algunos datos temporales pueden ser eliminados antes por la propia aplicación o por el sistema.
+
+La aplicación ofrece herramientas independientes para gestionar el historial de búsqueda, la caché del análisis y los componentes descargados. Borrar un tipo de caché no implica eliminar todos los demás datos, ajustes, compras o el saldo de consultas.
+
+Desinstalar la aplicación no elimina por sí solo las fotografías y los vídeos originales ni cancela las compras realizadas a través de Google Play.
+
+Las reglas de copia de seguridad de HexiSweep permiten que el sistema guarde los ajustes de idioma y apariencia. Los índices de la galería, el historial de consultas, las etiquetas de ubicación, el progreso de la revisión y la información local sobre compras no están incluidos en esta lista.
+
+Para solicitar la eliminación de una solicitud de asistencia enviada anteriormente, escribe a arturich.pog@gmail.com, preferiblemente desde la dirección desde la que la enviaste. Podemos pedir los datos mínimos necesarios para localizar la solicitud y verificar la petición.
+
+Los plazos de conservación de los datos tratados directamente por Google, Hugging Face y los servicios de correo se determinan según sus propias normas. El plazo de 90 días indicado anteriormente se refiere a las solicitudes recibidas por el desarrollador, no a todos los datos de esos servicios.
+
+10. Protección de datos
+
+HexiSweep utiliza el almacenamiento privado de la aplicación, los mecanismos de permisos del sistema Android y HTTPS para las descargas de red previstas.
+
+Adoptamos medidas razonables para limitar el acceso a las solicitudes recibidas y a los informes técnicos. Sin embargo, ningún método de almacenamiento o transmisión de datos ofrece una protección absoluta.
+
+11. Cambios en la política
+
+La política puede actualizarse cuando cambien las funciones de la aplicación o la forma de tratar los datos. La versión vigente se publica en esta página e indica la fecha de actualización.
+
+Si los cambios requieren una notificación o un consentimiento por separado, estos se facilitarán antes de que comience el tratamiento correspondiente en los casos previstos por los requisitos aplicables.
+
+12. Contacto
+
+Para cuestiones relacionadas con la privacidad, el tratamiento de datos y la eliminación de solicitudes enviadas:
+
+HexiTools — Artur Pogosian
+Correo electrónico: arturich.pog@gmail.com
+
+========================================================================
+
+[de] Deutsch
+
+Datenschutzerklärung von HexiSweep
+
+Stand: 18. Oktober 2026.
+
+Diese Erklärung erläutert, wie die Android-App HexiSweep Nutzerdaten verarbeitet.
+
+Entwickler: HexiTools — Artur Pogosian.
+Kontakt für Datenschutzfragen: arturich.pog@gmail.com.
+
+1. Grundsätze
+
+HexiSweep hilft Ihnen, Ihre Galerie anzusehen und zu organisieren, ähnliche Fotos zu finden und Dateien anhand ihres Inhalts zu suchen.
+
+Die Analyse von Fotos, Videos und Suchanfragen erfolgt auf dem Gerät. HexiSweep lädt die Inhalte Ihrer Galerie weder auf Server des Entwicklers noch auf Server von Google oder Hugging Face hoch, um sie einer cloudbasierten KI-Analyse zu unterziehen, und verwendet sie nicht zum Trainieren von Modellen.
+
+Für die grundlegenden Funktionen ist kein HexiSweep-Konto erforderlich.
+
+Die App enthält keine Werbung. Wir verkaufen keine personenbezogenen Daten und verwenden die Inhalte Ihrer Galerie nicht für Werbeprofile.
+
+Einzelne Funktionen benötigen jedoch Netzwerkverbindungen, etwa das Herunterladen von Modellen, die Kommunikation mit Google Play oder das Versenden einer E-Mail an den Support durch den Nutzer. Diese Fälle werden nachfolgend beschrieben.
+
+2. Zugriff auf Fotos, Videos und Metadaten
+
+Die App greift im Rahmen der Berechtigungen auf Mediendateien zu, die Sie ihr über Android erteilen. Je nach Systemversion können Sie den Zugriff auf die gesamte verfügbare Galerie oder nur auf ausgewählte Dateien erlauben.
+
+Für seine Funktionen kann HexiSweep folgende Daten verarbeiten:
+
+- Fotos, Videos, Miniaturansichten und einzelne Videobilder;
+- Datei- und Albumnamen, Dateispeicherorte, Dateitypen, Größen und Datumsangaben;
+- in Bildern erkannten Text;
+- Inhaltskategorien, Merkmale visueller Ähnlichkeit und numerische Darstellungen von Dateien, die von KI-Modellen verwendet werden;
+- geografische Koordinaten, die bereits in den Metadaten von Fotos gespeichert sind, sofern der entsprechende Zugriff erteilt wurde.
+
+Die Berechtigung für den Zugriff auf Standortinformationen von Medien wird verwendet, um den Aufnahmeort aus Dateien auszulesen. HexiSweep fragt für diese Funktion nicht den aktuellen GPS-Standort des Telefons ab. Die Zuordnung von Geotags zu Ortsnamen erfolgt in der aktuellen Implementierung lokal.
+
+Die Daten werden für die Anzeige der Galerie, die Suche, die Gruppierung ähnlicher Dateien, die Filterung und das Speichern des Bearbeitungsfortschritts verwendet.
+
+Die Analyse selbst verändert die Originale nicht. Dateien werden nur auf Ihre Veranlassung hin über die von Android vorgesehenen Bestätigungsmechanismen gelöscht.
+
+Sie können Berechtigungen in den Systemeinstellungen widerrufen. Funktionen, die den jeweiligen Zugriff benötigen, sind danach möglicherweise nicht mehr oder nur eingeschränkt verfügbar.
+
+3. Auf dem Gerät gespeicherte Daten
+
+Um die erneute Nutzung zu beschleunigen, speichert die App lokale Daten, darunter:
+
+- Analyseergebnisse, Indizes, erkannten Text, Kategorien und KI-Darstellungen von Dateien;
+- den Suchverlauf;
+- ausgewählte Alben, Ausnahmen, Markierungen, den Sortierfortschritt und Angaben zu ausgeführten Aktionen;
+- Sprach- und Darstellungseinstellungen;
+- Ergebnisse von Leistungstests;
+- Angaben zu freigeschalteten Funktionen und zum verfügbaren Kontingent an Suchanfragen;
+- technische Fehlerdiagnosen.
+
+Diese Daten befinden sich im Speicher der App und werden nicht mit einem eigenen HexiSweep-Konto oder -Server synchronisiert.
+
+Zur Verarbeitung und Weitergabe von Dateien auf Ihre Veranlassung hin können temporäre Kopien im Cache der App angelegt werden.
+
+4. Internet und Herunterladen von Komponenten
+
+Einige KI-Modelle, Sprachpakete und Komponenten werden separat heruntergeladen. Dafür greift die App auf Dienste von Google und Hugging Face zu, einschließlich der von ihnen verwendeten Infrastruktur zur Dateibereitstellung.
+
+Beim Herunterladen können die Server übliche technische Angaben zur Netzwerkanfrage erhalten: die IP-Adresse, den Zeitpunkt des Zugriffs, die Adresse der angeforderten Komponente und technische Verbindungsparameter. Zum Herunterladen von Modellen übermittelt die App keine Fotos, Videos oder Texte Ihrer Suchanfragen.
+
+Suchanfragen werden nach der Bereitstellung des erforderlichen Sprachpakets auf dem Gerät übersetzt.
+
+Die Datenverarbeitung durch die Diensteanbieter ist in deren Datenschutzerklärungen beschrieben:
+
+- Datenschutzerklärung von Google: https://policies.google.com/privacy?hl=de
+- Datenschutzerklärung von Hugging Face: https://huggingface.co/privacy
+
+5. Technische Daten der Google-SDKs
+
+HexiSweep verwendet Google ML Kit für einzelne Erkennungs- und Übersetzungsfunktionen.
+
+Laut der Dokumentation von Google werden die Bild-, Video- und Textinhalte, die diesen Funktionen übergeben werden, auf dem Gerät verarbeitet. ML Kit übermittelt jedoch auch technische Angaben an Google zur Diagnose, zur Nutzungsanalyse sowie zur Unterstützung und Verbesserung des SDKs.
+
+Je nach verwendeter Funktion können dazu folgende Angaben gehören:
+
+- Gerätehersteller und -modell, Android-Version und verfügbare KI-Beschleuniger;
+- Paketname und Version der App;
+- vom SDK verwendete Geräte- oder Installationskennungen;
+- Ausführungszeiten von Vorgängen, Ereignisse beim Herunterladen und Verwenden von Komponenten sowie Fehlercodes;
+- Verarbeitungsparameter, beispielsweise Bildformat und -auflösung sowie die Größe der Ein- und Ausgabedaten;
+- eingestellte Übersetzungssprachen.
+
+Diese technische Diagnose bedeutet nicht, dass die Inhalte Ihrer Galerie zur Analyse in die Cloud hochgeladen werden. Google gibt an, dass die aufgeführten Diagnosedaten über HTTPS übertragen werden. Weitere Informationen finden Sie in der ML-Kit-Dokumentation:
+
+- Datenverarbeitung: https://developers.google.com/ml-kit/android-data-disclosure
+- Bedingungen und Datenschutz: https://developers.google.com/ml-kit/terms
+
+6. Käufe
+
+Bei Käufen über Google Play wird die Zahlung von Google abgewickelt.
+
+Die App erhält die technischen Angaben, die zur Prüfung und Bestätigung des Kaufs, zur Wiederherstellung des Zugriffs und zur Bereitstellung der erworbenen Funktionen erforderlich sind. Dazu können Produktkennungen, der Kaufstatus und Bestätigungstokens gehören.
+
+HexiSweep fragt weder die vollständige Nummer Ihrer Bankkarte noch deren Sicherheitscode ab und erhält diese auch nicht.
+
+Für Daten, die unmittelbar von Google Play verarbeitet werden, gelten die Bedingungen und die Datenschutzerklärung von Google.
+
+7. Fehlerberichte und Kontakt zum Support
+
+Bei Fehlern kann die App einen lokalen technischen Bericht erstellen. Dieser kann die App-Version, das Telefonmodell, die Android-Version, den Fehlerzeitpunkt, Angaben zur Ausführung der Funktion, Fehlerarten und gefilterte Diagnoseereignisse enthalten.
+
+Fotos und Videos aus der Galerie werden dem Bericht nicht automatisch beigefügt.
+
+Der Bericht wird nicht automatisch an den Entwickler gesendet. Wenn Sie die Versandoption wählen, öffnet die App einen E-Mail-Entwurf, den Sie selbst prüfen, ändern und versenden können.
+
+Nach dem Versand erhalten wir die Absenderadresse, den Nachrichtentext, den technischen Bericht und weitere Materialien, die Sie beigefügt haben. Sie werden zur Beantwortung Ihrer Anfrage sowie zur Diagnose und Behebung des beschriebenen Problems verwendet.
+
+E-Mails und freiwillig übermittelte Berichte werden spätestens 90 Tage nach Klärung des Anliegens gelöscht, sofern eine längere Aufbewahrung einzelner Angaben nicht gesetzlich vorgeschrieben ist.
+
+8. Weitergabe von Dateien auf Ihre Veranlassung
+
+Wenn Sie die Funktion „Teilen“ verwenden, werden die ausgewählten Dateien an die App oder den Dienst weitergegeben, die bzw. den Sie im Android-Systemmenü ausgewählt haben.
+
+Für die weitere Verarbeitung dieser Dateien gelten die Regeln des ausgewählten Empfängers. Dasselbe gilt für die E-Mail-App, mit der Sie eine Anfrage versenden.
+
+Diese Weitergabe unterscheidet sich von der Galerieanalyse: Sie erfolgt durch eine gesonderte Aktion Ihrerseits.
+
+9. Speicherung und Löschung von Daten
+
+Lokale Indizes, der Verlauf, Einstellungen und gespeicherter Fortschritt verbleiben auf dem Gerät, bis sie über die entsprechende App-Funktion, durch das Löschen der App-Daten in Android oder durch die Deinstallation der App entfernt werden. Einzelne temporäre Daten können von der App oder dem System bereits früher gelöscht werden.
+
+Die App bietet separate Funktionen zur Verwaltung des Suchverlaufs, des Analyse-Caches und heruntergeladener Komponenten. Das Leeren einer Cache-Art bedeutet nicht, dass alle anderen Daten, Einstellungen, Käufe oder das Kontingent an Suchanfragen gelöscht werden.
+
+Die Deinstallation der App allein löscht weder die Originalfotos und -videos noch storniert sie Käufe, die über Google Play getätigt wurden.
+
+Die Sicherungsregeln von HexiSweep erlauben die systemseitige Sicherung der Sprach- und Darstellungseinstellungen. Galerieindizes, Suchverlauf, Geotags, Sortierfortschritt und lokale Kaufangaben sind nicht in dieser Liste enthalten.
+
+Um eine bereits gesendete Anfrage löschen zu lassen, schreiben Sie an arturich.pog@gmail.com, möglichst von der Adresse, von der Sie die Anfrage gesendet haben. Wir können die Mindestangaben anfordern, die zum Auffinden der Anfrage und zur Prüfung Ihres Löschanliegens erforderlich sind.
+
+Für die Aufbewahrungsfristen von Daten bei Google, Hugging Face und E-Mail-Diensten gelten deren eigene Regeln. Die oben genannte Frist von 90 Tagen gilt für Anfragen, die der Entwickler erhalten hat, nicht für sämtliche Daten dieser Dienste.
+
+10. Datensicherheit
+
+HexiSweep verwendet den privaten App-Speicher, die Berechtigungsmechanismen von Android und HTTPS für die vorgesehenen Netzwerkdownloads.
+
+Wir treffen angemessene Maßnahmen, um den Zugriff auf erhaltene Anfragen und technische Berichte zu beschränken. Keine Form der Speicherung oder Übertragung von Daten bietet jedoch absolute Sicherheit.
+
+11. Änderungen dieser Erklärung
+
+Diese Erklärung kann aktualisiert werden, wenn sich App-Funktionen oder die Datenverarbeitung ändern. Die aktuelle Fassung wird auf dieser Seite mit dem Aktualisierungsdatum veröffentlicht.
+
+Erfordern Änderungen eine gesonderte Benachrichtigung oder Einwilligung, erfolgt diese in den von den anwendbaren Anforderungen vorgesehenen Fällen vor Beginn der entsprechenden Verarbeitung.
+
+12. Kontakt
+
+Bei Fragen zum Datenschutz, zur Datenverarbeitung und zur Löschung bereits gesendeter Anfragen:
+
+HexiTools — Artur Pogosian
+E-Mail: arturich.pog@gmail.com
+
+========================================================================
+
+[fr] Français
+
+Politique de confidentialité de HexiSweep
+
+Date de mise à jour : 18 octobre 2026.
+
+La présente politique explique comment l’application Android HexiSweep traite les données des utilisateurs.
+
+Développeur : HexiTools — Artur Pogosian.
+Contact pour les questions de confidentialité : arturich.pog@gmail.com.
+
+1. Principes généraux
+
+HexiSweep vous aide à consulter et à organiser votre galerie, à trouver des photos similaires et à rechercher des fichiers selon leur contenu.
+
+L’analyse des photos, des vidéos et des requêtes de recherche s’effectue sur l’appareil. HexiSweep ne téléverse pas le contenu de votre galerie vers les serveurs du développeur, de Google ou de Hugging Face pour une analyse par IA dans le cloud et ne l’utilise pas pour entraîner des modèles.
+
+Il n’est pas nécessaire de créer un compte HexiSweep pour utiliser les fonctions principales.
+
+L’application ne contient pas de publicité. Nous ne vendons pas de données personnelles et n’utilisons pas le contenu de la galerie à des fins de profilage publicitaire.
+
+Certaines fonctions nécessitent toutefois des connexions réseau, par exemple le téléchargement de modèles, les échanges avec Google Play et l’envoi d’un e-mail au support par l’utilisateur. Ces cas sont décrits ci-dessous.
+
+2. Accès aux photos, aux vidéos et aux métadonnées
+
+L’application accède aux fichiers multimédias dans les limites des autorisations que vous lui accordez par l’intermédiaire d’Android. Selon la version du système, vous pouvez autoriser l’accès à l’ensemble de la galerie disponible ou uniquement aux fichiers sélectionnés.
+
+Pour assurer ses fonctions, HexiSweep peut traiter :
+
+- les photos, les vidéos, les miniatures et certaines images extraites de vidéos ;
+- les noms des fichiers et des albums, l’emplacement des fichiers, leur type, leur taille et leurs dates ;
+- le texte reconnu dans les images ;
+- les catégories de contenu, les caractéristiques de similarité visuelle et les représentations numériques des fichiers utilisées par les modèles d’IA ;
+- les coordonnées géographiques déjà enregistrées dans les métadonnées des photos, si l’accès correspondant a été accordé.
+
+L’autorisation d’accès aux données de localisation des médias sert à lire le lieu de prise de vue enregistré dans les fichiers. HexiSweep ne demande pas la position GPS actuelle du téléphone pour cette fonction. Dans l’implémentation actuelle, la correspondance entre les géotags et les noms de lieux est établie localement.
+
+Ces données sont utilisées pour afficher la galerie, effectuer des recherches, regrouper les fichiers similaires, appliquer des filtres et enregistrer la progression.
+
+L’analyse elle-même ne modifie pas les originaux. La suppression des fichiers s’effectue à votre initiative, au moyen des mécanismes de confirmation prévus par Android.
+
+Vous pouvez révoquer les autorisations dans les paramètres du système. Les fonctions qui nécessitent l’accès concerné peuvent alors devenir indisponibles ou fonctionner de manière limitée.
+
+3. Données conservées sur l’appareil
+
+Pour accélérer les utilisations suivantes, l’application conserve des données locales, notamment :
+
+- les résultats d’analyse, les index, le texte reconnu, les catégories et les représentations des fichiers par l’IA ;
+- l’historique des requêtes de recherche ;
+- les albums sélectionnés, les exclusions, les éléments marqués, la progression du tri et les informations sur les actions effectuées ;
+- les paramètres de langue et d’apparence ;
+- les résultats des tests de performances ;
+- les informations sur les fonctions débloquées et le solde de requêtes de recherche ;
+- les diagnostics techniques des erreurs.
+
+Ces données sont stockées dans l’espace de l’application et ne sont pas synchronisées avec un compte ou un serveur propre à HexiSweep.
+
+Des copies temporaires peuvent être créées dans le cache de l’application pour traiter et transmettre des fichiers à votre demande.
+
+4. Internet et téléchargement de composants
+
+Certains modèles d’IA, packs de langues et composants sont téléchargés séparément. Pour cela, l’application se connecte aux services de Google et de Hugging Face, y compris à l’infrastructure de distribution de fichiers qu’ils utilisent.
+
+Lors d’un téléchargement, les serveurs peuvent recevoir les informations techniques habituelles d’une requête réseau : l’adresse IP, la date et l’heure de la connexion, l’adresse du composant demandé et les paramètres techniques de connexion. Pour télécharger des modèles, l’application ne joint ni photos, ni vidéos, ni texte de vos requêtes de recherche.
+
+La traduction des requêtes de recherche s’effectue sur l’appareil, une fois le pack de langue nécessaire préparé.
+
+Le traitement des données par les fournisseurs de services est décrit dans leurs politiques :
+
+- Politique de confidentialité de Google : https://policies.google.com/privacy?hl=fr
+- Politique de confidentialité de Hugging Face : https://huggingface.co/privacy
+
+5. Données techniques des SDK Google
+
+HexiSweep utilise Google ML Kit pour certaines fonctions de reconnaissance et de traduction.
+
+Selon la documentation de Google, le contenu des images, des vidéos et des textes transmis à ces fonctions est traité sur l’appareil. Toutefois, ML Kit transmet également à Google des informations techniques à des fins de diagnostic, d’analyse de l’utilisation, de maintenance et d’amélioration du SDK.
+
+Selon la fonction utilisée, ces informations peuvent comprendre :
+
+- le fabricant et le modèle de l’appareil, la version d’Android et les accélérateurs d’IA disponibles ;
+- le nom du package et la version de l’application ;
+- les identifiants de l’appareil ou de l’installation utilisés par le SDK ;
+- la durée d’exécution des opérations, les événements de téléchargement et d’utilisation des composants et les codes d’erreur ;
+- les paramètres de traitement, par exemple le format et la résolution des images ainsi que la taille des données d’entrée et de sortie ;
+- les langues de traduction configurées.
+
+Ces diagnostics techniques ne constituent pas un téléversement du contenu de votre galerie pour une analyse dans le cloud. Google indique que les données de diagnostic énumérées sont transmises par HTTPS. Pour en savoir plus, consultez la documentation de ML Kit :
+
+- Traitement des données : https://developers.google.com/ml-kit/android-data-disclosure
+- Conditions et confidentialité : https://developers.google.com/ml-kit/terms
+
+6. Achats
+
+Lorsque vous effectuez un achat via Google Play, le paiement est traité par Google.
+
+L’application reçoit les informations techniques nécessaires pour vérifier l’achat, le confirmer, rétablir l’accès et fournir les fonctionnalités achetées. Elles peuvent comprendre les identifiants des produits, le statut de l’achat et les jetons de confirmation.
+
+HexiSweep ne demande ni ne reçoit le numéro complet de votre carte bancaire ou son code de sécurité.
+
+Les données traitées directement par Google Play sont régies par les conditions et la politique de confidentialité de Google.
+
+7. Rapports d’erreur et contact avec le support
+
+En cas d’erreur, l’application peut générer un rapport technique local. Celui-ci peut contenir la version de l’application, le modèle du téléphone, la version d’Android, la date et l’heure de l’erreur, des informations sur le fonctionnement de la fonction concernée, les types d’erreurs et des événements de diagnostic filtrés.
+
+Les photos et vidéos de la galerie ne sont pas automatiquement jointes au rapport.
+
+Le rapport n’est pas envoyé automatiquement au développeur. Si vous choisissez de l’envoyer, l’application ouvre un brouillon d’e-mail que vous pouvez vérifier, modifier et envoyer vous-même.
+
+Après l’envoi, nous recevons l’adresse de l’expéditeur, le texte du message, le rapport technique et les autres éléments que vous avez décidé de joindre. Ils sont utilisés pour vous répondre, établir un diagnostic et résoudre le problème décrit.
+
+Les e-mails et les rapports envoyés volontairement sont supprimés au plus tard 90 jours après la résolution de la demande, sauf si une conservation plus longue de certaines informations est imposée par la loi.
+
+8. Transmission de fichiers à votre initiative
+
+Si vous utilisez la fonction « Partager », les fichiers sélectionnés sont transmis à l’application ou au service que vous avez choisi dans le menu système d’Android.
+
+Le traitement ultérieur de ces fichiers est régi par les règles du destinataire choisi. Il en va de même pour l’application de messagerie utilisée pour envoyer votre demande.
+
+Cette transmission se distingue de l’analyse de la galerie : elle résulte d’une action distincte de votre part.
+
+9. Conservation et suppression des données
+
+Les index locaux, l’historique, les paramètres et la progression enregistrée sont conservés sur l’appareil jusqu’à leur suppression au moyen de la fonction correspondante de l’application, de l’effacement des données via Android ou de la désinstallation de l’application. Certaines données temporaires peuvent être supprimées plus tôt par l’application elle-même ou par le système.
+
+L’application propose des outils distincts pour gérer l’historique des recherches, le cache d’analyse et les composants téléchargés. Vider un type de cache ne signifie pas supprimer toutes les autres données, les paramètres, les achats ou le solde de requêtes.
+
+La désinstallation de l’application ne supprime pas à elle seule les photos et vidéos originales et n’annule pas les achats effectués via Google Play.
+
+Les règles de sauvegarde de HexiSweep autorisent la sauvegarde système des paramètres de langue et d’apparence. Les index de la galerie, l’historique des requêtes, les géotags, la progression du tri et les informations locales sur les achats ne figurent pas dans cette liste.
+
+Pour demander la suppression d’une demande précédemment envoyée, écrivez à arturich.pog@gmail.com, de préférence depuis l’adresse utilisée pour l’envoyer. Nous pouvons vous demander le minimum d’informations nécessaire pour retrouver le message et vérifier votre demande de suppression.
+
+Les durées de conservation des données traitées directement par Google, Hugging Face et les services de messagerie sont définies par leurs propres règles. Le délai de 90 jours indiqué ci-dessus concerne les demandes reçues par le développeur, et non l’ensemble des données de ces services.
+
+10. Protection des données
+
+HexiSweep utilise l’espace de stockage privé de l’application, les mécanismes d’autorisation d’Android et HTTPS pour les téléchargements réseau prévus.
+
+Nous prenons des mesures raisonnables pour limiter l’accès aux demandes reçues et aux rapports techniques. Toutefois, aucune méthode de stockage ou de transmission des données ne garantit une protection absolue.
+
+11. Modifications de la politique
+
+La politique peut être mise à jour en cas de modification des fonctions de l’application ou des modalités de traitement des données. La version en vigueur est publiée sur cette page avec sa date de mise à jour.
+
+Si des modifications nécessitent une notification distincte ou un consentement, ceux-ci interviennent avant le début du traitement concerné dans les cas prévus par les exigences applicables.
+
+12. Contact
+
+Pour toute question concernant la confidentialité, le traitement des données ou la suppression des demandes envoyées :
+
+HexiTools — Artur Pogosian
+E-mail : arturich.pog@gmail.com
+
+========================================================================
+
+[pt-BR] Português (Brasil)
+
+Política de privacidade do HexiSweep
+
+Data de atualização: 18 de outubro de 2026.
+
+Esta política explica como o aplicativo HexiSweep para Android trata os dados dos usuários.
+
+Desenvolvedor: HexiTools — Artur Pogosian.
+Contato para questões de privacidade: arturich.pog@gmail.com.
+
+1. Princípios básicos
+
+O HexiSweep ajuda a visualizar e organizar a galeria, encontrar fotos semelhantes e buscar arquivos pelo conteúdo.
+
+A análise de fotos, vídeos e consultas de pesquisa é realizada no dispositivo. O HexiSweep não envia o conteúdo da sua galeria aos servidores do desenvolvedor, do Google ou do Hugging Face para análise de IA na nuvem, nem o utiliza para treinar modelos.
+
+Não é necessário criar uma conta do HexiSweep para usar os recursos principais.
+
+O aplicativo não contém publicidade. Não vendemos dados pessoais nem usamos o conteúdo da galeria para criar perfis publicitários.
+
+No entanto, alguns recursos exigem conexões de rede: por exemplo, o download de modelos, a interação com o Google Play e o envio de um e-mail ao suporte pelo usuário. Esses casos são descritos abaixo.
+
+2. Acesso a fotos, vídeos e metadados
+
+O aplicativo acessa os arquivos de mídia dentro dos limites das permissões que você concede pelo Android. Dependendo da versão do sistema, você pode permitir o acesso a toda a galeria disponível ou somente aos arquivos selecionados.
+
+Para oferecer seus recursos, o HexiSweep pode tratar:
+
+- fotos, vídeos, miniaturas e quadros individuais dos vídeos;
+- nomes de arquivos e álbuns, localização dos arquivos, tipo, tamanho e datas;
+- texto reconhecido nas imagens;
+- categorias de conteúdo, características de semelhança visual e representações numéricas dos arquivos utilizadas pelos modelos de IA;
+- coordenadas geográficas já registradas nos metadados das fotos, se o acesso correspondente tiver sido concedido.
+
+A permissão de acesso às marcações geográficas dos arquivos de mídia é usada para ler, nos arquivos, o local em que as fotos foram tiradas. O HexiSweep não solicita a localização GPS atual do telefone para esse recurso. Na implementação atual, a associação dessas marcações aos nomes dos lugares é realizada localmente.
+
+Os dados são usados para exibir a galeria, realizar pesquisas, agrupar arquivos semelhantes, filtrar e salvar o progresso.
+
+A análise em si não altera os originais. A exclusão de arquivos ocorre por uma ação sua, utilizando os mecanismos de confirmação previstos pelo Android.
+
+Você pode revogar as permissões nas configurações do sistema. Depois disso, os recursos que precisam do acesso correspondente podem ficar indisponíveis ou funcionar com limitações.
+
+3. Dados armazenados no dispositivo
+
+Para agilizar o uso posterior, o aplicativo salva dados locais, incluindo:
+
+- resultados da análise, índices, texto reconhecido, categorias e representações dos arquivos utilizadas pela IA;
+- histórico de consultas de pesquisa;
+- álbuns selecionados, exclusões, marcações, progresso da revisão e informações sobre as ações realizadas;
+- configurações de idioma e aparência;
+- resultados dos testes de desempenho;
+- informações sobre os recursos desbloqueados e o saldo de consultas de pesquisa;
+- diagnóstico técnico de erros.
+
+Esses dados ficam no armazenamento do aplicativo e não são sincronizados com uma conta própria ou um servidor próprio do HexiSweep.
+
+Para processar e transferir arquivos a seu pedido, podem ser criadas cópias temporárias no cache do aplicativo.
+
+4. Internet e download de componentes
+
+Alguns modelos de IA, pacotes de idiomas e componentes são baixados separadamente. Para isso, o aplicativo se conecta a serviços do Google e do Hugging Face, incluindo a infraestrutura de distribuição de arquivos utilizada por eles.
+
+Durante o download, os servidores podem receber as informações técnicas habituais de uma solicitação de rede: endereço IP, horário da solicitação, endereço do componente solicitado e parâmetros técnicos da conexão. Para baixar modelos, o aplicativo não anexa fotos, vídeos ou o texto das suas consultas de pesquisa.
+
+A tradução de uma consulta de pesquisa é realizada no dispositivo após a preparação do pacote de idiomas necessário.
+
+O tratamento de dados pelos fornecedores dos serviços é descrito nas respectivas políticas:
+
+- Política de privacidade do Google: https://policies.google.com/privacy?hl=pt-BR
+- Política de privacidade do Hugging Face: https://huggingface.co/privacy
+
+5. Dados técnicos dos SDKs do Google
+
+O HexiSweep usa o Google ML Kit para determinados recursos de reconhecimento e tradução.
+
+Segundo a documentação do Google, o conteúdo de imagens, vídeos e texto fornecido a esses recursos é processado no dispositivo. No entanto, o ML Kit também transmite ao Google informações técnicas para diagnóstico, análise de uso, suporte e melhoria do SDK.
+
+Dependendo do recurso utilizado, essas informações podem incluir:
+
+- fabricante e modelo do dispositivo, versão do Android e aceleradores de IA disponíveis;
+- nome do pacote e versão do aplicativo;
+- identificadores do dispositivo ou da instalação utilizados pelo SDK;
+- tempos de execução das operações, eventos de carregamento e uso dos componentes e códigos de erro;
+- parâmetros de processamento, como formato e resolução da imagem e tamanhos dos dados de entrada e saída;
+- idiomas de tradução configurados.
+
+Esse diagnóstico técnico não constitui o envio do conteúdo da sua galeria para análise na nuvem. O Google informa que os dados de diagnóstico listados são transmitidos por HTTPS. Mais detalhes estão disponíveis na documentação do ML Kit:
+
+- Tratamento de dados: https://developers.google.com/ml-kit/android-data-disclosure
+- Termos e privacidade: https://developers.google.com/ml-kit/terms
+
+6. Compras
+
+Quando você faz compras pelo Google Play, o pagamento é processado pelo Google.
+
+O aplicativo recebe as informações operacionais necessárias para verificar a compra, confirmá-la, restaurar o acesso e disponibilizar os recursos adquiridos. Elas podem incluir identificadores de produtos, o status da compra e tokens de confirmação.
+
+O HexiSweep não solicita nem recebe o número completo do seu cartão bancário ou seu código de segurança.
+
+Os dados tratados diretamente pelo Google Play são regidos pelos termos e pela política de privacidade do Google.
+
+7. Relatórios de erros e contato com o suporte
+
+Em caso de erros, o aplicativo pode gerar um relatório técnico local. Ele pode conter a versão do aplicativo, o modelo do telefone, a versão do Android, o horário do erro, informações sobre o funcionamento do recurso, tipos de erros e eventos de diagnóstico filtrados.
+
+Fotos e vídeos da galeria não são anexados automaticamente ao relatório.
+
+O relatório não é enviado automaticamente ao desenvolvedor. Se você optar pelo envio, o aplicativo abre um rascunho de e-mail que você pode revisar, alterar e enviar por conta própria.
+
+Após o envio, recebemos o endereço do remetente, o texto do e-mail, o relatório técnico e outros materiais que você decidir anexar. Eles são usados para responder, diagnosticar e resolver o problema descrito.
+
+Os e-mails e relatórios enviados voluntariamente são excluídos em até 90 dias após a resolução da solicitação, salvo se a lei exigir a conservação de determinadas informações por mais tempo.
+
+8. Transferência de arquivos por uma ação sua
+
+Se você usar o recurso “Compartilhar”, os arquivos selecionados serão transferidos para o aplicativo ou serviço que você indicar no menu do sistema Android.
+
+O tratamento posterior desses arquivos é regido pelas regras do destinatário escolhido. O mesmo se aplica ao aplicativo de e-mail usado para enviar uma solicitação de suporte.
+
+Essa transferência é diferente da análise da galeria: ela ocorre por uma ação sua separada.
+
+9. Armazenamento e exclusão de dados
+
+Os índices locais, o histórico, as configurações e o progresso salvo permanecem no dispositivo até serem excluídos pelo recurso correspondente do aplicativo, pela limpeza dos dados no Android ou pela desinstalação do aplicativo. Alguns dados temporários podem ser excluídos antes pelo próprio aplicativo ou pelo sistema.
+
+O aplicativo oferece ferramentas separadas para gerenciar o histórico de pesquisa, o cache da análise e os componentes baixados. Limpar um tipo de cache não significa excluir todos os demais dados, configurações, compras ou o saldo de consultas.
+
+A desinstalação do aplicativo, por si só, não exclui as fotos e os vídeos originais nem cancela as compras feitas pelo Google Play.
+
+As regras de backup do HexiSweep permitem que o sistema salve as configurações de idioma e aparência. Os índices da galeria, o histórico de consultas, as marcações geográficas, o progresso da revisão e as informações locais sobre compras não estão incluídos nessa lista.
+
+Para pedir a exclusão de uma solicitação de suporte enviada anteriormente, escreva para arturich.pog@gmail.com, de preferência a partir do endereço usado no envio. Podemos solicitar as informações mínimas necessárias para localizar a mensagem e verificar o pedido.
+
+Os prazos de retenção dos dados tratados diretamente pelo Google, pelo Hugging Face e pelos serviços de e-mail são determinados pelas respectivas regras. O prazo de 90 dias indicado acima se refere às solicitações recebidas pelo desenvolvedor, não a todos os dados desses serviços.
+
+10. Proteção de dados
+
+O HexiSweep usa o armazenamento privado do aplicativo, os mecanismos de permissão do sistema Android e HTTPS para os downloads de rede previstos.
+
+Adotamos medidas razoáveis para limitar o acesso às solicitações recebidas e aos relatórios técnicos. No entanto, nenhum método de armazenamento ou transmissão de dados oferece proteção absoluta.
+
+11. Alterações na política
+
+A política pode ser atualizada quando houver mudanças nos recursos do aplicativo ou na forma de tratar os dados. A versão vigente é publicada nesta página com a data de atualização.
+
+Se as alterações exigirem uma notificação ou um consentimento separado, eles serão fornecidos antes do início do tratamento correspondente nos casos previstos pelos requisitos aplicáveis.
+
+12. Contato
+
+Para questões de privacidade, tratamento de dados e exclusão de solicitações enviadas:
+
+HexiTools — Artur Pogosian
+E-mail: arturich.pog@gmail.com
+
