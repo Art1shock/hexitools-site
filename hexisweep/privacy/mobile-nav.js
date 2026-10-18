@@ -39,12 +39,7 @@
     lastY=scrollY;
   }
   function queue(){if(!frame){frame=true;requestAnimationFrame(update);}}
-  function go(hash){
-    const target=document.getElementById(hash.slice(1));if(!target)return;
-    const url=new URL(location.href);url.hash=hash;
-    if(location.hash!==hash)history.pushState(null,'',url);
-    window.scrollTo({top:scrollY+target.getBoundingClientRect().top-document.querySelector('.site-header').offsetHeight-20,behavior:reduced.matches?'instant':'smooth'});
-  }
+  function go(hash){window.hexiPrivacyNavigation.go(hash);}
   function open(){
     if(!mobile.matches||dialog.open||closing)return;
     returnFocus=document.activeElement;lockedY=scrollY;
@@ -85,7 +80,5 @@
   addEventListener('scroll',queue,{passive:true});addEventListener('resize',queue);visualViewport?.addEventListener('resize',queue);
   mobile.addEventListener('change',()=>{if(!mobile.matches&&dialog.open)dismiss();queue();});
   button.addEventListener('focus',()=>button.classList.remove('compact'));
-  // Existing anchors remain the canonical URLs; only mobile TOC clicks get an explicit header offset.
-  document.getElementById('toc').addEventListener('click',event=>{const link=event.target.closest('a');if(mobile.matches&&link){event.preventDefault();go(link.hash);}});
   sync();
 })();

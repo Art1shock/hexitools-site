@@ -58,3 +58,7 @@ summary.eyebrow{cursor:pointer;list-style:none}summary.eyebrow::-webkit-details-
 @media print{.mobile-sections,.section-dialog{display:none!important}}
 /* Language changes restore the reading position explicitly. */
 html{overflow-anchor:none}
+
+/* Keep the document introduction legible without wrapping the short label. */
+.document-heading .eyebrow{font-size:14px;letter-spacing:.035em;line-height:1.5}
+@media(max-width:760px){.document-heading .eyebrow{font-size:clamp(12px,3.6vw,14px);letter-spacing:0}}
