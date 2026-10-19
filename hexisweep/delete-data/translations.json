@@ -34,7 +34,8 @@
     "footer": "Less pressure. More usefulness.",
     "back": "Back to privacy policy",
     "language": "Language",
-    "noscript": "Instructions and direct email contact remain available without JavaScript."
+    "noscript": "Instructions and direct email contact remain available without JavaScript.",
+    "backTop": "Back to top"
   },
   "ru": {
     "title": "Удаление данных HexiSweep",
@@ -71,7 +72,8 @@
     "footer": "Меньше навязчивости. Больше пользы.",
     "back": "К политике конфиденциальности",
     "language": "Язык",
-    "noscript": "Инструкция и прямой контакт по email доступны без JavaScript."
+    "noscript": "Инструкция и прямой контакт по email доступны без JavaScript.",
+    "backTop": "Наверх"
   },
   "es": {
     "title": "Eliminación de datos de HexiSweep",
@@ -108,7 +110,8 @@
     "footer": "Menos presión. Más utilidad.",
     "back": "Volver a la política de privacidad",
     "language": "Idioma",
-    "noscript": "Las instrucciones y el contacto directo por correo están disponibles sin JavaScript."
+    "noscript": "Las instrucciones y el contacto directo por correo están disponibles sin JavaScript.",
+    "backTop": "Volver arriba"
   },
   "de": {
     "title": "HexiSweep-Daten löschen",
@@ -145,7 +148,8 @@
     "footer": "Weniger Druck. Mehr Nutzen.",
     "back": "Zur Datenschutzerklärung",
     "language": "Sprache",
-    "noscript": "Anleitung und direkter E-Mail-Kontakt sind ohne JavaScript verfügbar."
+    "noscript": "Anleitung und direkter E-Mail-Kontakt sind ohne JavaScript verfügbar.",
+    "backTop": "Nach oben"
   },
   "fr": {
     "title": "Suppression des données HexiSweep",
@@ -182,7 +186,8 @@
     "footer": "Moins de pression. Plus d’utilité.",
     "back": "Retour à la politique de confidentialité",
     "language": "Langue",
-    "noscript": "Les instructions et le contact direct par e-mail sont accessibles sans JavaScript."
+    "noscript": "Les instructions et le contact direct par e-mail sont accessibles sans JavaScript.",
+    "backTop": "Retour en haut"
   },
   "pt-BR": {
     "title": "Exclusão de dados do HexiSweep",
@@ -219,6 +224,7 @@
     "footer": "Menos pressão. Mais utilidade.",
     "back": "Voltar à política de privacidade",
     "language": "Idioma",
-    "noscript": "As instruções e o contato direto por e-mail estão disponíveis sem JavaScript."
+    "noscript": "As instruções e o contato direto por e-mail estão disponíveis sem JavaScript.",
+    "backTop": "Voltar ao topo"
   }
 }

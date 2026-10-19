@@ -55,7 +55,7 @@
     document.getElementById('language-name').textContent=languageNames[code];document.getElementById('language-flag').src='../privacy/assets/flags/'+code+'.svg';
     languageToggle.setAttribute('aria-label',t.language+': '+languageNames[code]);languageMenu.setAttribute('aria-label',t.language);
     languageOptions.forEach(o=>o.setAttribute('aria-selected',String(o.dataset.language===code)));
-    for(const [id,key] of [['page-title','title'],['page-lead','lead'],['developer-line','developer'],['footer-line','footer']])document.getElementById(id).textContent=data[code][key];
+    for(const [id,key] of [['page-title','title'],['page-lead','lead'],['developer-line','developer'],['footer-line','footer'],['back-top','backTop']])document.getElementById(id).textContent=data[code][key];
     document.querySelectorAll('.delete-copy').forEach(el=>el.hidden=el.lang!==code);
     if(position){const block=document.querySelector('#delete-'+code+' [data-block="'+position.key+'"]');scrollTo({top:block?scrollY+block.getBoundingClientRect().top+position.ratio*block.offsetHeight-line:position.y,behavior:'instant'});}
     if(remember){try{localStorage.setItem('hexitools.privacy.language',code);localStorage.setItem('hexitools.privacy.browser',JSON.stringify(navigator.languages||[navigator.language]));}catch{}const url=new URL(location.href);url.searchParams.set('lang',code);if(url.hash)url.hash=url.hash.replace(/^#(?:en|ru|de|es|fr|pt-BR)-/,'#'+code+'-');history.replaceState(history.state,'',url);}
