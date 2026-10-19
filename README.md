@@ -30,7 +30,7 @@ as requested by the owner. It is not a web submission form. No captcha provider,
 server, new credentials or third-party form processor is connected.
 
 See [setup, limitations and request handling](docs/data-deletion.md).
-Publication of this new page requires owner approval of the email-only approach.
+The owner approved publication of the email-only approach on October 19, 2026.
 GitHub Pages publishes `main` from the repository root; `.nojekyll` keeps the
 site as plain static files.
 

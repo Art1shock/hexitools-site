@@ -13,7 +13,7 @@
 .delete-copy p{margin:0 0 18px}
 .steps{display:grid;grid-template-columns:1fr 1fr;gap:14px;padding:0;list-style:none;margin:0}
 .steps li{display:flex;align-items:flex-start;gap:12px;min-width:0;border:1px solid #ffffff0e;padding:18px;border-radius:13px;background:#ffffff02;font-size:16px;line-height:1.65}
-.step-index{display:grid;place-items:center;flex:0 0 27px;width:27px;height:29px;color:var(--orange);font-weight:650;font-size:15px}
+.step-hex{flex:0 0 23px;width:23px;height:26px;color:var(--orange);margin-top:1px}
 .scope-grid{display:grid;grid-template-columns:1fr 1fr;gap:20px;margin-bottom:12px}.scope-grid>div{padding:20px;border-radius:13px;background:#12121555;border:1px solid #ffffff0b}.scope-grid p{margin-bottom:0}
 .request-panel{position:relative}.request-panel>.site-hex{float:right;width:28px;height:31px;color:var(--orange);margin-left:16px}
 .email-button{display:inline-flex;align-items:center;justify-content:center;gap:12px;max-width:100%;padding:13px 20px;background:#ff8a2b14;border:1px solid #ff8a2b65;border-radius:12px;color:#ffc392;text-decoration:none;line-height:1.5;font-size:17px;font-weight:600;transition:background-color .18s,border-color .18s}
