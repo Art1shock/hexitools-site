@@ -161,8 +161,6 @@
     languageToggle.setAttribute('aria-label',data.ui[code][8]+': '+languageNames[code]);
     languageMenu.setAttribute('aria-label',data.ui[code][8]);
     languageOptions.forEach(option=>option.setAttribute('aria-selected',String(option.dataset.language===code)));
-    const deletionLink=document.querySelector('[data-delete-footer]');
-    if(deletionLink){deletionLink.textContent=({"en": "Request deletion of data", "ru": "Запросить удаление данных", "es": "Solicitar la eliminación de datos", "de": "Löschung von Daten anfragen", "fr": "Demander la suppression de données", "pt-BR": "Solicitar exclusão de dados"})[code];deletionLink.href='../delete-data/?lang='+code;}
     document.getElementById('page-title').textContent=data.meta[code].title;
     document.getElementById('update-date').textContent=data.meta[code].date;
     document.querySelectorAll('[data-ui]').forEach(el=>{el.textContent=data.ui[code][Number(el.dataset.ui)];});

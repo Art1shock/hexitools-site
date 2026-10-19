@@ -1,7 +1,7 @@
 {
   "en": {
     "title": "Delete HexiSweep data",
-    "lead": "Request deletion of support messages and reports you previously sent to HexiTools. No app installation or account is needed.",
+    "lead": "Request deletion of support messages and reports you previously sent to HexiTools.",
     "stepsTitle": "How to make a request",
     "steps": [
       "Write from the email address you previously used to contact support.",
@@ -39,7 +39,7 @@
   },
   "ru": {
     "title": "Удаление данных HexiSweep",
-    "lead": "Запросите удаление обращений и отчётов, которые вы ранее отправляли HexiTools. Устанавливать приложение и создавать аккаунт не нужно.",
+    "lead": "Запросите удаление обращений и отчётов, которые вы ранее отправляли HexiTools.",
     "stepsTitle": "Как отправить запрос",
     "steps": [
       "Напишите с адреса электронной почты, с которого ранее обращались в поддержку.",
@@ -77,7 +77,7 @@
   },
   "es": {
     "title": "Eliminación de datos de HexiSweep",
-    "lead": "Solicita la eliminación de mensajes e informes que enviaste a HexiTools. No necesitas instalar la aplicación ni crear una cuenta.",
+    "lead": "Solicita la eliminación de mensajes e informes que enviaste a HexiTools.",
     "stepsTitle": "Cómo enviar una solicitud",
     "steps": [
       "Escribe desde el correo electrónico que usaste para contactar con soporte.",
@@ -115,7 +115,7 @@
   },
   "de": {
     "title": "HexiSweep-Daten löschen",
-    "lead": "Fordere die Löschung von Supportnachrichten und Berichten an, die du an HexiTools gesendet hast. Du musst weder die App installieren noch ein Konto erstellen.",
+    "lead": "Fordere die Löschung von Supportnachrichten und Berichten an, die du an HexiTools gesendet hast.",
     "stepsTitle": "So stellst du eine Anfrage",
     "steps": [
       "Schreibe von der E-Mail-Adresse, mit der du den Support zuvor kontaktiert hast.",
@@ -153,7 +153,7 @@
   },
   "fr": {
     "title": "Suppression des données HexiSweep",
-    "lead": "Demandez la suppression des messages et rapports que vous avez envoyés à HexiTools. Aucune installation ni création de compte n’est nécessaire.",
+    "lead": "Demandez la suppression des messages et rapports que vous avez envoyés à HexiTools.",
     "stepsTitle": "Comment faire une demande",
     "steps": [
       "Écrivez depuis l’adresse e-mail utilisée pour contacter le support auparavant.",
@@ -191,7 +191,7 @@
   },
   "pt-BR": {
     "title": "Exclusão de dados do HexiSweep",
-    "lead": "Solicite a exclusão de mensagens e relatórios que você enviou à HexiTools. Não é necessário instalar o aplicativo nem criar uma conta.",
+    "lead": "Solicite a exclusão de mensagens e relatórios que você enviou à HexiTools.",
     "stepsTitle": "Como enviar uma solicitação",
     "steps": [
       "Escreva usando o endereço de e-mail com o qual entrou em contato com o suporte anteriormente.",
