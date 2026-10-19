@@ -942,3 +942,11 @@ Para questões de privacidade, tratamento de dados e exclusão de solicitações
 HexiTools - Artur Pogosian
 E-mail: arturich.pog@gmail.com
 
+
+
+Request deletion of data: https://art1shock.github.io/hexitools-site/hexisweep/delete-data/?lang=en
+Запросить удаление данных: https://art1shock.github.io/hexitools-site/hexisweep/delete-data/?lang=ru
+Solicitar la eliminación de datos: https://art1shock.github.io/hexitools-site/hexisweep/delete-data/?lang=es
+Löschung von Daten anfragen: https://art1shock.github.io/hexitools-site/hexisweep/delete-data/?lang=de
+Demander la suppression de données: https://art1shock.github.io/hexitools-site/hexisweep/delete-data/?lang=fr
+Solicitar exclusão de dados: https://art1shock.github.io/hexitools-site/hexisweep/delete-data/?lang=pt-BR

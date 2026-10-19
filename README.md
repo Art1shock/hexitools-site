@@ -21,6 +21,16 @@ English remains readable without JavaScript, with a link to all six original
 translations in plain text. All six policy translations are present in the HTML.
 
 Serve the repository root with any static web server for local preview.
+
+## HexiSweep data deletion instructions
+
+`hexisweep/delete-data/` contains a six-language instruction page with an explicit
+email request link. It uses only GitHub Pages and the existing developer mailbox,
+as requested by the owner. It is not a web submission form. No captcha provider,
+server, new credentials or third-party form processor is connected.
+
+See [setup, limitations and request handling](docs/data-deletion.md).
+Publication of this new page requires owner approval of the email-only approach.
 GitHub Pages publishes `main` from the repository root; `.nojekyll` keeps the
 site as plain static files.
 

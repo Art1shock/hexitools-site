@@ -75,3 +75,5 @@ html{overflow-anchor:none}
   -webkit-touch-callout:none;
  }
 }
+.footer-links{display:flex;align-items:center;gap:20px;flex-wrap:wrap}
+@media(max-width:760px){.footer-links{gap:10px 20px}}
